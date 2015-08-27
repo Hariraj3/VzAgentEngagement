@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Queues>
+  <Queue id="Queue1" agentsStaffed="20" agentsAvailable="5" callsInQueue="30" callInRate="5" 
+         currentASA="50" currentAHT="1230" currentEWT="40"/>
+  <Queue id="Queue2" agentsStaffed="20" agentsAvailable="10" callsInQueue="5" callInRate="1" 
+         currentASA="10" currentAHT="300" currentEWT="8"/>
+  <Queue id="Queue3" agentsStaffed="10" agentsAvailable="2" callsInQueue="12" callInRate="4" 
+         currentASA="80" currentAHT="1540" currentEWT="65"/>
+  <Queue id="Queue4" agentsStaffed="50" agentsAvailable="40" callsInQueue="10" callInRate="15"
+         currentASA="60" currentAHT="600" currentEWT="65"/>
+  <Queue id="Queue5" agentsStaffed="5" agentsAvailable="5" callsInQueue="2" callInRate="4"
+         currentASA="30" currentAHT="1200" currentEWT="65"/>
+</Queues>

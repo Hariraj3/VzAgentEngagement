@@ -1,0 +1,5 @@
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Entities\bin\Debug\Vz.AgentEngagement.Entities.dll
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Entities\bin\Debug\Vz.AgentEngagement.Entities.pdb
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Entities\obj\Debug\Vz.AgentEngagement.Entities.csprojResolveAssemblyReference.cache
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Entities\obj\Debug\Vz.AgentEngagement.Entities.dll
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Entities\obj\Debug\Vz.AgentEngagement.Entities.pdb

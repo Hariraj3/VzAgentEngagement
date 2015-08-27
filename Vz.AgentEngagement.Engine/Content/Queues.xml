@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Queues>
+  <Queue>
+    <Name>Queue-1</Name>
+  </Queue>
+  <Queue>
+    <Name>Queue-2</Name>
+  </Queue>
+  <Queue>
+    <Name>Queue-3</Name>
+  </Queue>
+</Queues>

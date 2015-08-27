@@ -1,0 +1,74 @@
+﻿ .yui3-button {
+    margin:3px;
+}
+
+.warning{
+    background-color:#FAF55F;
+}
+
+.success{
+    background-color:#57A957;
+    color:white;
+}
+
+.error{
+    background-color:#C43C35;
+    color:white;
+}
+
+.notice{
+    background-color:#1B7AE0;
+    color:white;
+}
+
+.yui3-button-icon {
+    background-image: url("../assets/button/icon-sprite-dark-and-light-24.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+    width: 20px;
+}
+
+.yui3-button-icon-bold {
+    background-position: 1px 1px;
+}
+
+.yui3-button-icon-italic {
+    background-position: 1px -35px;
+}
+
+.yui3-button-icon-underline {
+    background-position: 1px -71px;
+}
+
+
+  #divCall {
+      display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    vertical-align: middle;
+    border: 1px solid blue;
+    display: table-cell;
+  }
+
+
+  .left-div {
+    float: left;
+    width: 50%;
+    margin-right: 0px;
+    background-color: linen;
+    border: 1px solid;
+     border-radius: 5px;
+}
+
+.right-div {
+    width: 50%;
+    margin-left: 280px;
+    background-color: lime;
+    border: 1px solid;
+     border-radius: 5px;
+}

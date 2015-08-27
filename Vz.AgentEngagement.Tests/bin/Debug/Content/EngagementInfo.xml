@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item type="Training" duration="5" title="Time Management" url="http://vzlearn.verizon.com/start.aspx?courseid=VZC0001"/>
+  <Item type="Training" duration="7" title="Accent Tuning" url="http://vzlearn.verizon.com/start.aspx?courseid=VZC0002"/>
+  <Item type="Training" duration="3" title="Treating your customers courteously" url="http://vzlearn.verizon.com/start.aspx?courseid=VZC0003"/>
+  <Item type="Training" duration="8" title="Effective Communication" url="http://vzlearn.verizon.com/start.aspx?courseid=VZC0004"/>
+  <Item type="Training" duration="10" title="Handling Rude Customers" url="http://vzlearn.verizon.com/start.aspx?courseid=VZC0005"/>
+  <Item type="FollowUp" duration="1" title="Get Order information requested by John Doe (813-617-0645)" url=""/>
+  <Item type="FollowUp" duration="3" title="Follow up with Retention team about John Brooks (813-617-0002)" url=""/>
+  <Item type="FollowUp" duration="2" title="Enter timesheet" url="http://pace.verizon.com"/>
+  <Item type="FollowUp" duration="5" title="Get Laptop checked with Desktop team" url=""/>
+</Items>

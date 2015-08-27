@@ -1,0 +1,17 @@
+D:\VDSI-Hackathon\Vz.AgentEngagement.Engine\Vz.AgentEngagement.Engine\bin\Debug\Vz.AgentEngagement.Engine.dll
+D:\VDSI-Hackathon\Vz.AgentEngagement.Engine\Vz.AgentEngagement.Engine\bin\Debug\Vz.AgentEngagement.Engine.pdb
+D:\VDSI-Hackathon\Vz.AgentEngagement.Engine\Vz.AgentEngagement.Engine\obj\Debug\Vz.AgentEngagement.Engine.dll
+D:\VDSI-Hackathon\Vz.AgentEngagement.Engine\Vz.AgentEngagement.Engine\obj\Debug\Vz.AgentEngagement.Engine.pdb
+D:\VDSI-Hackathon\Vz.AgentEngagement.Engine\Vz.AgentEngagement.Engine\bin\Debug\Content\QueueInfo.xml
+D:\VDSI-Hackathon\Vz.AgentEngagement.Engine\Vz.AgentEngagement.Engine\bin\Debug\Content\AgentInfo.xml
+D:\VDSI-Hackathon\Vz.AgentEngagement.Engine\Vz.AgentEngagement.Engine\bin\Debug\Content\EngagementInfo.xml
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\bin\Debug\Content\QueueInfo.xml
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\bin\Debug\Content\AgentInfo.xml
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\bin\Debug\Content\EngagementInfo.xml
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\bin\Debug\Vz.AgentEngagement.Engine.dll
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\bin\Debug\Vz.AgentEngagement.Engine.pdb
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\bin\Debug\System.Net.Http.dll
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\bin\Debug\System.Net.Http.xml
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\obj\Debug\Vz.AgentEngagement.Engine.dll
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\obj\Debug\Vz.AgentEngagement.Engine.pdb
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\obj\Debug\Vz.AgentEngagement.Engine.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+D:\Vz.AgentEngagement\Vz.AgentEngagement\bin\Content\QueueInfo.xml
+D:\Vz.AgentEngagement\Vz.AgentEngagement\bin\Content\AgentInfo.xml
+D:\Vz.AgentEngagement\Vz.AgentEngagement\bin\Content\EngagementInfo.xml
+D:\Vz.AgentEngagement\Vz.AgentEngagement\bin\Vz.AgentEngagement.dll.config
+D:\Vz.AgentEngagement\Vz.AgentEngagement\bin\Vz.AgentEngagement.dll
+D:\Vz.AgentEngagement\Vz.AgentEngagement\bin\Vz.AgentEngagement.pdb
+D:\Vz.AgentEngagement\Vz.AgentEngagement\bin\Vz.AgentEngagement.Engine.dll
+D:\Vz.AgentEngagement\Vz.AgentEngagement\bin\Vz.AgentEngagement.Engine.pdb
+D:\Vz.AgentEngagement\Vz.AgentEngagement\obj\Debug\Vz.AgentEngagement.csprojResolveAssemblyReference.cache
+D:\Vz.AgentEngagement\Vz.AgentEngagement\obj\Debug\Vz.AgentEngagement.dll
+D:\Vz.AgentEngagement\Vz.AgentEngagement\obj\Debug\Vz.AgentEngagement.pdb
