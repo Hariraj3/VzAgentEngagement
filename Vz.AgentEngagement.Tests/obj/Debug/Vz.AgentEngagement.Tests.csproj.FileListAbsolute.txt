@@ -6,10 +6,8 @@ D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.Test
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.Tests.pdb
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.dll
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.Engine.dll
-D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\xunit.abstractions.dll
-D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\xunit.assert.dll
-D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\xunit.core.dll
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.Engine.pdb
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.pdb
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\obj\Debug\Vz.AgentEngagement.Tests.dll
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\obj\Debug\Vz.AgentEngagement.Tests.pdb
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\nunit.framework.dll
