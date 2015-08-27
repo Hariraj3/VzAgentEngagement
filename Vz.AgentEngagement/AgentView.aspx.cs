@@ -44,7 +44,7 @@ namespace Vz.AgentEngagement
                     }
 
                     sb = new StringBuilder();
-                    sb.Append("<div style='font-size: 20px; padding-bottom:10px'> You have <span id='divFreeMin'>" + objEngagementResult.FreeMinutes.ToString() + "</span> free minutes left. What would you like to do?</div>");
+                    sb.Append("<div style='font-size: 20px; padding-bottom:10px'> You have <span id='divFreeMin'>" + objEngagementResult.FreeMinutes.ToString() + "</span> free minutes left... What would you like to do?</div>");
                     var lstTrainingEngagement = objEngagementResult.Items.Where(x => x.ItemType == EngagementItemType.Training);
                     if (lstTrainingEngagement != null)
                     {
