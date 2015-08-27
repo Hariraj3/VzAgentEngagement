@@ -1,0 +1,6 @@
+language: csharp
+solution: Vz.AgentEngagement.sln
+mono:
+  - latest
+script: 
+   - mono /Tools/xunit.console.exe Vz.AgentEngagement.Tests/bin/Debug/Vz.AgentEngagement.Tests.dllr

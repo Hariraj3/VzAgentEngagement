@@ -12,3 +12,4 @@ D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\bin\Debug\Vz.AgentEngagement.Eng
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\bin\Debug\Vz.AgentEngagement.Engine.pdb
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\obj\Debug\Vz.AgentEngagement.Engine.dll
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\obj\Debug\Vz.AgentEngagement.Engine.pdb
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Engine\obj\Debug\Vz.AgentEngagement.Engine.csprojResolveAssemblyReference.cache

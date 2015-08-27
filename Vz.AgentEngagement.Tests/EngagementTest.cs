@@ -11,7 +11,7 @@ namespace Vz.AgentEngagement.Tests
 {
     public class EngagementTest
     {
-        
+        [Fact]
         public void TestMethod1()
         {
             EngagementEngine.Initialize(@"D:\Vz.AgentEngagement\Vz.AgentEngagement\XML\");
