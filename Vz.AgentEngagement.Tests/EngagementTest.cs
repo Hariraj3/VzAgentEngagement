@@ -21,7 +21,6 @@ namespace Vz.AgentEngagement.Tests
             EngagementEngine.Initialize(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "XML"));
             EngagementResult objEngagementResult = EngagementEngine.GetEngagement(new EngagementRequest { AgentId = "Agent1" });
             Assert.AreEqual(0, objEngagementResult.FreeMinutes);
-
         }
     }
 }
