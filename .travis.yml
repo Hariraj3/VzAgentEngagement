@@ -2,5 +2,9 @@ language: csharp
 solution: Vz.AgentEngagement.sln
 mono:
   - latest
-script: 
-   - mono /Tools/xunit.console.exe Vz.AgentEngagement.Tests/bin/Debug/Vz.AgentEngagement.Tests.dllr
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore Vz.AgentEngagement.sln
+after_script:
+  - nunit-console Vz.AgentEngagement.Tests/bin/Debug/Vz.AgentEngagement.Tests.dll
