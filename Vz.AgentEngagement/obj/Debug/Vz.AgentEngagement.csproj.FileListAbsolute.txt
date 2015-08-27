@@ -9,3 +9,6 @@ D:\Vz.AgentEngagement\Vz.AgentEngagement\bin\Vz.AgentEngagement.Engine.pdb
 D:\Vz.AgentEngagement\Vz.AgentEngagement\obj\Debug\Vz.AgentEngagement.csprojResolveAssemblyReference.cache
 D:\Vz.AgentEngagement\Vz.AgentEngagement\obj\Debug\Vz.AgentEngagement.dll
 D:\Vz.AgentEngagement\Vz.AgentEngagement\obj\Debug\Vz.AgentEngagement.pdb
+D:\Vz.AgentEngagement\Vz.AgentEngagement\bin\XML\AgentInfo.xml
+D:\Vz.AgentEngagement\Vz.AgentEngagement\bin\XML\EngagementInfo.xml
+D:\Vz.AgentEngagement\Vz.AgentEngagement\bin\XML\QueueInfo.xml

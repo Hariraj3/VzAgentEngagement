@@ -7,6 +7,7 @@ using Vz.AgentEngagement.Engine;
 //using Xunit;
 //using Xunit.Abstractions;
 using NUnit.Framework;
+using System.IO;
 
 namespace Vz.AgentEngagement.Tests
 {
@@ -16,7 +17,8 @@ namespace Vz.AgentEngagement.Tests
         [Test]
         public void TestMethod1()
         {
-            EngagementEngine.Initialize(@"D:\Vz.AgentEngagement\Vz.AgentEngagement\XML\");
+            //EngagementEngine.Initialize(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Content" @"D:\Vz.AgentEngagement\Vz.AgentEngagement\XML\");
+            EngagementEngine.Initialize(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "XML"));
             EngagementResult objEngagementResult = EngagementEngine.GetEngagement(new EngagementRequest { AgentId = "Agent1" });
             Assert.AreEqual(0, objEngagementResult.FreeMinutes);
 

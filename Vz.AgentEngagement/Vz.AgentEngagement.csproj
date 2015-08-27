@@ -69,9 +69,15 @@
     <Content Include="Content\Styles\agentstyle.css" />
     <Content Include="Content\Styles\bootstrap-theme.min.css" />
     <Content Include="Content\Styles\cssbutton.css" />
-    <Content Include="XML\AgentInfo.xml" />
-    <Content Include="XML\EngagementInfo.xml" />
-    <Content Include="XML\QueueInfo.xml" />
+    <Content Include="XML\AgentInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\EngagementInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\QueueInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

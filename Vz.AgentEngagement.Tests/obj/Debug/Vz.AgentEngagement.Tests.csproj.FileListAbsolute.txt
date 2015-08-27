@@ -11,3 +11,6 @@ D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.pdb
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\obj\Debug\Vz.AgentEngagement.Tests.dll
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\obj\Debug\Vz.AgentEngagement.Tests.pdb
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\nunit.framework.dll
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\XML\AgentInfo.xml
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\XML\EngagementInfo.xml
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\XML\QueueInfo.xml
