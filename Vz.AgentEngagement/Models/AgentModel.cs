@@ -55,7 +55,6 @@ namespace Vz.AgentEngagement.Models
                 if (xmlReader != null)
                 {
                     xmlReader.Close();
-                    xmlReader.Dispose();
                     xmlReader = null;
                 }
 
@@ -71,7 +70,6 @@ namespace Vz.AgentEngagement.Models
                 if (xmlReader != null)
                 {
                     xmlReader.Close(); 
-                    xmlReader.Dispose();
                     xmlReader = null;
                 }
                 xDoc = null;

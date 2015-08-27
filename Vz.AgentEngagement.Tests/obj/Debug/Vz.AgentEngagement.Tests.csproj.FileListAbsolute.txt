@@ -1,3 +1,4 @@
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\obj\Debug\Vz.AgentEngagement.Tests.csprojResolveAssemblyReference.cache
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Content\QueueInfo.xml
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Content\AgentInfo.xml
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Content\EngagementInfo.xml
@@ -5,8 +6,10 @@ D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.Test
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.Tests.pdb
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.dll
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.Engine.dll
-D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.pdb
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\xunit.abstractions.dll
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\xunit.assert.dll
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\xunit.core.dll
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.Engine.pdb
-D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\obj\Debug\Vz.AgentEngagement.Tests.csprojResolveAssemblyReference.cache
+D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\bin\Debug\Vz.AgentEngagement.pdb
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\obj\Debug\Vz.AgentEngagement.Tests.dll
 D:\Vz.AgentEngagement\Vz.AgentEngagement.Tests\obj\Debug\Vz.AgentEngagement.Tests.pdb
