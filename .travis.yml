@@ -8,3 +8,12 @@ before_script:
   - nuget restore Vz.AgentEngagement.sln
 after_script:
   - nunit-console Vz.AgentEngagement.Tests/bin/Debug/Vz.AgentEngagement.Tests.dll
+
+deploy:
+   edge: true
+   provider: cloudfoundry
+   username: hariraj@gmail.com
+   password: Vishwak05
+   api: https://api.run.pivotal.io
+   organization: CMB
+   space: staging
