@@ -2,12 +2,6 @@ language: csharp
 solution: Vz.AgentEngagement.sln
 mono:
   - latest
-before_install:
-  - sudo apt-get install nunit-console
-before_script:
-  - nuget restore Vz.AgentEngagement.sln
-after_script:
-  - nunit-console Vz.AgentEngagement.Tests/bin/Debug/Vz.AgentEngagement.Tests.dll
 
 deploy:
    edge: true
@@ -16,4 +10,4 @@ deploy:
    password: Vishwak05
    api: https://api.run.pivotal.io
    organization: CMB
-   space: staging
+   space: Development
