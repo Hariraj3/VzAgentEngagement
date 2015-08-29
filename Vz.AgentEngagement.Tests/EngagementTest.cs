@@ -17,8 +17,7 @@ namespace Vz.AgentEngagement.Tests
         [Test]
         public void TestMethod1()
         {
-            //EngagementEngine.Initialize(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Content" @"D:\Vz.AgentEngagement\Vz.AgentEngagement\XML\");
-            EngagementEngine.Initialize(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "XML"));
+            EngagementEngine.Initialize("Content");
             EngagementResult objEngagementResult = EngagementEngine.GetEngagement(new EngagementRequest { AgentId = "Agent1" });
             Assert.AreEqual(0, objEngagementResult.FreeMinutes);
         }
