@@ -19,7 +19,7 @@ namespace Vz.AgentEngagement.Tests
         {
             EngagementEngine.Initialize("Content");
             EngagementResult objEngagementResult = EngagementEngine.GetEngagement(new EngagementRequest { AgentId = "Agent1" });
-            Assert.AreEqual(0, objEngagementResult.FreeMinutes);
+            Assert.AreEqual(12, objEngagementResult.FreeMinutes);
         }
     }
 }

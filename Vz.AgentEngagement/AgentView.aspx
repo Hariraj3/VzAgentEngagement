@@ -28,6 +28,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        Welcome <br />
         <div id="divCall" style="width: 200px; height:100px; vertical-align: middle; background-color: gray;">
             <div id="divStatus" style="text-align: left">Status: ON CALL</div><br />
             <input id="btnStatus" type="button" class='yui3-button error' value="HANGUP" onclick="changestatus();" />
