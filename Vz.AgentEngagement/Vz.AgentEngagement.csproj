@@ -60,7 +60,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\Admin.aspx" />
+    <Content Include="Center.aspx" />
+    <Content Include="Content\Scripts\Libs\drilldown.js" />
+    <Content Include="Content\Scripts\Libs\highcharts.js" />
     <Content Include="Content\Scripts\Libs\jquery-ui.js" />
+    <Content Include="Content\Scripts\Libs\jquery.layout.js" />
+    <None Include="Content\Scripts\Libs\jquery.validate-vsdoc.js" />
+    <Content Include="Content\Scripts\Libs\jquery.validate.js" />
+    <Content Include="Content\Scripts\Libs\jquery.validate.min.js" />
+    <Content Include="Content\Scripts\Libs\jquery.validate.unobtrusive.js" />
+    <Content Include="Content\Scripts\Libs\jquery.validate.unobtrusive.min.js" />
     <Content Include="Content\Scripts\Libs\modernizr-2.5.3.js" />
     <Content Include="Content\Styles\bootstrap.cosmo.css" />
     <Content Include="Content\Styles\bootstrap.cosmo.min.css" />
@@ -102,6 +111,13 @@
     </Compile>
     <Compile Include="AgentView.aspx.designer.cs">
       <DependentUpon>AgentView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Center.aspx.cs">
+      <DependentUpon>Center.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Center.aspx.designer.cs">
+      <DependentUpon>Center.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
