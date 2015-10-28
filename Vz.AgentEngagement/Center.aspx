@@ -12,6 +12,9 @@
         $(document).ready(function () {
             $('body').layout({ applyDefaultStyles: true });
 
+            //codepedia.info/2015/07/highcharts-asp-net-create-pie-chart-with-jquery-ajax-in-c-sharp-ms-sql-database/
+            //www.tutorialized.com/tutorial/Charts-and-graphs-using-jquery-and-charting-library-the-HighCharts/67976
+            //jsfiddle.net/gh/get/jquery/1.7.2/highslide-software/highcharts.com/tree/master/samples/highcharts/plotoptions/series-point-events-click/
             //$('.rcorners').toggle(function () {
             //    $(".rcorners").addClass("active");
             //}, function () {
@@ -24,9 +27,138 @@
             });
 
 
+            
+
+
+            $.ajax({
+                type: "POST",
+                contentType: "application/json; charset=utf-8",
+                url: "Service.asmx/FruitAnalysis2",
+                data: "{}",
+                dataType: "json",
+                success: function (Result) {
+                    //alert(Result.d.UserName);
+                    //alert(Result.d.UserValue);
+                    //Result = Result.d;
+                    var data = [];
+                    for (var i in Result) {
+                        var serie = new Array(Result[i].Name, Result[i].Value);
+                        data.push(serie);
+                    }
+                    //DreawChart(data);
+                    var seriesOne = new Array();
+                    var seriesTwo = new Array();
+                    seriesOne = Result.d.UserName;//.split(',');
+                    //for (var i = 0; i < seriesOne.length; i++) {
+                    //    seriesOne[i] = parseInt(seriesOne[i]);
+                    //}
+
+                    seriesTwo = Result.d.UserValue;//.split(',');
+                    DreawChart(seriesOne, seriesTwo);
+                },
+                error: function (Result) {
+                    alert("Error");
+                }
+            });
 
         });
 
+        function DreawChart(uname, uvalue) {
+            var arr = []
+            $.map(uvalue, function (item, index) {
+                arr.push(parseInt(item));
+            });
+
+            
+            $('#container').highcharts({
+                chart: {
+                    type: 'bar'
+                },
+                title: {
+                    text: 'Stacked column chart'
+                },
+                xAxis: {
+                    categories: uname,
+                    labels: {
+                        style: {
+                            cursor: 'pointer',
+                            fontSize: '14px'
+                        },
+                    events: {
+                            click: function(e)
+                            {
+                                alert('adfasdfasdf');
+                                console.log(e.xAxis[0].value);
+                                alert(e.xAxis[0].value);
+                                //ajax post
+                            }
+                        }
+                    }
+                },
+                yAxis: {
+                    min: 0,
+                    title: {
+                        text: 'Total fruit consumption'
+                    },
+                    stackLabels: {
+                        enabled: true,
+                        style: {
+                            fontWeight: 'bold',
+                            color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
+                        }
+                    }
+                },
+               
+                tooltip: {
+                    shared: true,
+                    formatter: function () {
+                        var ind = uname.indexOf(this.x);
+                        var s;
+                        $.each(this.points, function (i, point) {
+                            //s += point.series.options.composition[ind];
+                            s = "Name: " + point.x;
+                        });
+                        return s;
+                    }
+                    //headerFormat: '<b>{point.x}</b><br/>',
+                    //pointFormat: '{series.name}: {point.y}<br/>Total: {point.stackTotal}'
+                },
+                plotOptions: {
+                    column: {
+                        stacking: 'percent',
+                        dataLabels: {
+                            enabled: true,
+                            color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white',
+                            style: {
+                                textShadow: '0 0 3px black'
+                            }
+                        }
+                    }
+                },
+                series: [{
+                    name: 'ss',
+                    data: arr
+                }
+
+                //, {
+                //    name: 'Jane',
+                //    data: [2, 2, 3, 2, 1]
+                //}, {
+                //    name: 'Joe',
+                //    data: [3, 4, 4, 2, 5]
+                //}
+                ]
+
+
+
+            });
+        }
+
+
+        $('.highcharts-xaxis-labels text').on('click', function () {
+            console.log($(this).text());
+            alert($(this).text());
+        });
 
 
         //$(function () {
@@ -96,7 +228,7 @@
 
 
         $(function () {
-            $('#container').highcharts({
+            $('#containerrrrr').highcharts({
                 chart: {
                     type: 'bar'
                 },
