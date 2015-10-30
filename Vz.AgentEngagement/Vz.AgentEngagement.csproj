@@ -78,6 +78,7 @@
     <Content Include="Content\Styles\agentstyle.css" />
     <Content Include="Content\Styles\bootstrap-theme.min.css" />
     <Content Include="Content\Styles\cssbutton.css" />
+    <Content Include="Service.asmx" />
     <Content Include="XML\AgentInfo.xml" />
     <Content Include="XML\EngagementInfo.xml" />
     <Content Include="XML\QueueInfo.xml" />
@@ -124,6 +125,10 @@
     </Compile>
     <Compile Include="Models\AgentModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service.asmx.cs">
+      <DependentUpon>Service.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
